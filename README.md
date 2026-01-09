@@ -59,6 +59,7 @@ Activation Stability: Tracking hidden layer activation changes to diagnose issue
 
 
 # INPUT TEMPLATE EXAMPLE:
+```json
 {
     "constructor_configs": {
         "layer_configs": [
@@ -78,14 +79,12 @@ Activation Stability: Tracking hidden layer activation changes to diagnose issue
         "loss_function": "cross_entropy",
         "optimizer": "SGD"
     },
-
-    "training_configs":{
-        "batch_size":128,
-        "learning_rate":0.04,
-        "epochs":12
+    "training_configs": {
+        "batch_size": 128,
+        "learning_rate": 0.04,
+        "epochs": 12
     }
 }
-
-
+```
 # SAMPLE OUTPUT TEMPLATE (RECORDED HISTORY)
 <img width="1702" height="835" alt="image" src="https://github.com/user-attachments/assets/6e830fdc-4453-41e5-a203-62cd08ebec9b" />
